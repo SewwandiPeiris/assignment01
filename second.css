@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #8a2be2, #e63946);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #8a2be2;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Project Section Styles */
+.projects .project-item {
+    background: linear-gradient(135deg, #8a2be2 20%, #e63946 80%);
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-item h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.project-item p {
+    font-size: 1.1em;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements li {
+    background: #8a2be2;
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+
